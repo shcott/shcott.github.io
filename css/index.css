@@ -1,0 +1,26 @@
+body
+{
+	background-color: lightblue;
+}
+
+h1, h2, p
+{
+	color: navy;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	margin-left: 20px;
+}
+
+p
+{
+	font-size: 14px;
+	text-align: center;
+}
