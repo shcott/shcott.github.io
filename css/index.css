@@ -1,16 +1,46 @@
 body
 {
-	background-color: lightblue;
+	background-color: #F7F6F2;
+	margin: 0;
+}
+
+nav, nav a
+{
+	color: #4A3A2F;
+}
+
+nav
+{
+	background-color: #C4B195;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	height: 52px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav a
+{
+	display: inline-block;
+	padding: 16px 24px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
 h1, h2, p
 {
-	color: navy;
+	color: #4A3A2F;
 	font-family: 'Raleway', sans-serif;
 }
 
 h1
 {
+	font-size: 50px;
+	font-weight: 300;
 	text-align: center;
 }
 

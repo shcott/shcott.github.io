@@ -1,2 +1,2 @@
 # shcott.github.io
-A simple website describing me.
+A simple website describing what I've done.
