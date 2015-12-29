@@ -13,10 +13,10 @@ nav
 {
 	background: #C4B195;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	height: 51px;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+	font-weight: 400;
+	font-size: 18px;
+	height: 53px;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.2);
 }
 
 nav a
@@ -35,6 +35,11 @@ nav a:hover
 	background: rgba(0, 255, 0, 0.8);
 }
 
+#profile-wrapper
+{
+	padding: 48px 0 0 0;
+}
+
 #profile
 {
 	width: 256px;
@@ -43,25 +48,27 @@ nav a:hover
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	/*padding: 48px 0 0 0;*/
+	box-shadow: 0 0 4px rgba(0,0,0,0.5)
 }
 
-h1, h2, p
+h1, p
 {
 	color: #4A3A2F;
 	font-family: 'Raleway', sans-serif;
 }
 
-h1
+#top h1
 {
-	font-size: 50px;
-	font-weight: 300;
+	font-family: 'Pompiere', cursive;
+	font-size: 60px;
+	font-weight: 400;
 	text-align: center;
 }
 
-h2
+#top p
 {
-	margin-left: 20px;
+	font-size: 24px;
+	text-align: center;
 }
 
 p
