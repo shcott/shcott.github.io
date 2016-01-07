@@ -1,115 +1,111 @@
-html
-{
-
-}
-
 body
 {
-	/*background-color: rgba(254,253,249,1);*/
-	padding: 0;
-	margin: 0;
+  /*background-color: rgba(254,253,249,1);*/
+  padding: 0;
+  margin: 0;
 }
 
 #profile-wrapper
 {
-	padding: 54px 0 0 0;
+  padding: 54px 0 0 0;
 }
 
 #profile
 {
-	width: 256px;
-	height: 256px;
-	border-radius: 50%;
-	display: block;
-	margin: auto;
-	box-shadow: 0 0 4px rgba(0,0,0,0.5)
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  box-shadow: 0 0 4px rgba(0,0,0,0.5)
 }
 
-h1, p
+h1,
+p
 {
-	color: #4A3A2F;
-	font-family: 'Raleway', sans-serif;
+  color: #4A3A2F;
+  font-family: 'Raleway', sans-serif;
 }
 
 p
 {
-	font-size: 16px;
-	text-align: center;
+  font-size: 16px;
+  text-align: center;
 }
 
 .bg
 {
-	background:
-		linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 100%),
-		url(../img/bg.jpg) no-repeat center top;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+  background:
+    linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 100%),
+    url(../img/bg.jpg) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #top
 {
-	min-height: 100vh;
-	height: 100%;
-	width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 #top h1
 {
-	font-family: 'Pompiere', cursive;
-	font-size: 60px;
-	font-weight: 400;
-	text-align: center;
+  font-family: 'Pompiere', cursive;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
 }
 
 #top p
 {
-	font-size: 26px;
-	text-align: center;
+  font-size: 26px;
+  text-align: center;
 }
 
 nav
 {
-	background: rgba(130,84,16,0.4);
-	background: rgba(87,41,0,0.5);
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	display: table;
-	z-index: 2;
-	margin: auto;
-	text-align: center;
-	height: 53px;
-	width: 100%;
-	box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  background: rgba(130,84,16,0.4);
+  background: rgba(87,41,0,0.5);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  display: table;
+  z-index: 2;
+  margin: auto;
+  text-align: center;
+  height: 53px;
+  width: 100%;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.4);
 }
 
 nav a
 {
-	color: #FBFBFB;
-	padding: 16px 24px;
-	display: inline-block;
-	text-decoration: none;
-	-webkit-transition: background .2s, box-shadow .2s, ease-in-out;
-	-moz-transition: background .2s, box-shadow .2s, ease-in-out;
-	transition: background .2s, box-shadow .2s, ease-in-out;
+  color: #FBFBFB;
+  padding: 16px 24px;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: background .2s, box-shadow .2s, ease-in-out;
+  -moz-transition: background .2s, box-shadow .2s, ease-in-out;
+  transition: background .2s, box-shadow .2s, ease-in-out;
 }
 
 nav a:hover
 {
-	background: rgba(0,0,0,0.1);
-	box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.1);
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
 }
 
 #nav-offset
 {
-	height: 53px;
-	width: 100%;
+  height: 53px;
+  width: 100%;
 }
 
 #section-contact
 {
-	height: 300px;
-	width: 100%;
+  height: 300px;
+  width: 100%;
 }
