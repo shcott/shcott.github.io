@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,20 +8,19 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pompiere">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/index.css">
 
 <script src="js/index.js"></script>
 
 <body>
   <div id="top" class="bg inset-shadow-cover">
-    <div id="profile-wrapper">
-      <img id="profile" src="img/profile.jpg" alt="doge">
-    </div>
+    <img id="profile" src="img/profile.jpg" alt="doge">
     <h1>Scott Huang</h1>
     <p>Hello, it's me</p>
   </div>
   <div id="nav">
-    <a href="#top">^</a>
+    <a href="#top"><i class="fa fa-caret-up"></i></a>
     <a href="#section-background-nav">Background</a>
     <a href="#section-projects-nav">Projects</a>
     <!-- <a href="#section-interests">Interests</a> -->
@@ -30,9 +29,21 @@
   <div id="section-background-nav" class="nav-offset"></div>
   <div id="section-background" class="section">
     <h2>Background</h2>
-    <p>Haha, please.</p>
+    <div class="section-bg-div"><ul class="fa-ul">
+      <li><i class="fa-il fa fa-university fa-3x fa-fw"></i>
+        The University of Texas at Austin</li>
+      <li><i class="fa-il fa fa-graduation-cap fa-3x fa-fw"></i>
+        Bacheler of Science, Computer Science</li>
+      <li><i class="fa-il fa fa-lemon-o fa-3x fa-fw"></i>
+        Blah</li>
+      <li><i class="fa-il fa fa-trophy fa-3x fa-fw"></i>
+        Blah</li>
+    </ul></div>
+    <div class="section-bg-div"><p>
+      Lots of text blah blah blah blah blah blah blah blah blah.
+    </p></div>
   </div>
-  <div id="section-projects-nav" class="nav-offset"></div>
+  <div id="section-projects-nav" class="nav-offset undo-nav-pos"></div>
   <div id="section-projects" class="section bg-blue inset-shadow">
     <h2>Projects</h2>
     <p>I have no projects because I suck..</p>
@@ -42,8 +53,24 @@
     <p>Tell me I'm interesting. ;)</p>
   </div> -->
   <div id="section-contact" class="section inset-shadow-b">
-    <h2>Contact</h2>
-    <p>Omg contact me please! I want friends..</p>
+    <ul id="contact-ul">
+      <li class="contact-li"><a href="doc/resume.pdf">
+        <i class="fa fa-file-text-o fa-2x"></i>
+      </a></li>
+      <li class="contact-li"><a href="https://github.com/shcott">
+        <i class="fa fa-github fa-2x"></i>
+      </a></li>
+      <li class="contact-li"><a href="https://www.linkedin.com/in/scotthuang21">
+        <i class="fa fa-linkedin fa-2x"></i>
+      </a></li>
+      <li class="contact-li"><a href="mailto:scott.huang.21@outlook.com">
+        <i class="fa fa-envelope-o fa-2x"></i>
+      </a></li>
+      <li class="contact-li"><a href="skype:live:scottscottscott21">
+        <i class="fa fa-skype fa-2x"></i>
+      </a></li>
+    </ul>
+    <p>&copy; 2016 &middot; Scott Huang &middot; All rights reserved.</p>
   </div>
 </body>
 
