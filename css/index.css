@@ -206,12 +206,12 @@ h3 {
   background-image: url(../img/mc/animationapi.png);
 }
 
-.mutant-creatures {
-  background-image: url(../img/mc/mutantcreatures.png);
-}
-
 .aquatic-abyss {
   background-image: url(../img/mc/aquaticabyss.png);
+}
+
+.mutant-creatures {
+  background-image: url(../img/mc/mutantcreatures.png);
 }
 
 #section-contact {
