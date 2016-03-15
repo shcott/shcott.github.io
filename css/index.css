@@ -205,23 +205,6 @@ h3 {
   background-image: url(../img/mc/mutantcreatures.png);
 }
 
-.img-block-div {
-  display: inline-block;
-  height: 20vw;
-  width: 28vw;
-  min-height: 320px;
-  min-width: 450px;
-  padding: 10px;
-}
-
-.img-block {
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  box-shadow: 0 0 4px rgba(0,0,0,0.3);
-}
-
 #section-contact {
   height: 240px;
   padding: 74px 0 0 0;
