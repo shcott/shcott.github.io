@@ -32,6 +32,10 @@ h2 {
   font-size: 30px;
 }
 
+h3 {
+  font-weight: 500;
+}
+
 .bg {
   /* Background pattern modified from subtlepatterns.com */
   background: url(../img/tiles_brown.png);
@@ -154,10 +158,13 @@ h2 {
 }
 
 .bg-blue h2,
+.bg-blue h3,
 .bg-blue p,
 .bg-green h2,
+.bg-green h3,
 .bg-green p,
 .bg-purple h2,
+.bg-purple h3,
 .bg-purple p {
   color: #fbfbfb;
 }
@@ -177,12 +184,33 @@ h2 {
 #section-projects {
 }
 
+.img-project {
+  display: inline-block;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vw;
+  width: 28vw;
+  min-height: 320px;
+  min-width: 450px;
+  margin: 10px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
+.animated-player {
+  background-image: url(../img/mc/animatedplayer.png);
+}
+
+.mutant-creatures {
+  background-image: url(../img/mc/mutantcreatures.png);
+}
+
 .img-block-div {
   display: inline-block;
-  height: 25vw;
-  width: 35vw;
-  min-height: 300px;
-  min-width: auto;
+  height: 20vw;
+  width: 28vw;
+  min-height: 320px;
+  min-width: 450px;
   padding: 10px;
 }
 
