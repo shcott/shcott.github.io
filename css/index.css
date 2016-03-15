@@ -171,6 +171,7 @@ h3 {
 
 .bg-blue {
   background-color: #008F99;
+  background-color: #87242B;
 }
 
 .bg-green {
@@ -193,16 +194,24 @@ h3 {
   width: 28vw;
   min-height: 320px;
   min-width: 450px;
-  margin: 10px;
-  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  margin: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
 }
 
 .animated-player {
   background-image: url(../img/mc/animatedplayer.png);
 }
 
+.animation-api {
+  background-image: url(../img/mc/animationapi.png);
+}
+
 .mutant-creatures {
   background-image: url(../img/mc/mutantcreatures.png);
+}
+
+.aquatic-abyss {
+  background-image: url(../img/mc/aquaticabyss.png);
 }
 
 #section-contact {
