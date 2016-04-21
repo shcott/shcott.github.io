@@ -91,7 +91,7 @@ h3 {
   right: 0;
   left: 0;
   margin-top: 64px;
-  text-shadow: 0 0 4px rgba(0,0,0,0.3);
+  text-shadow: 0 0 6px rgba(0,0,0,0.15);
 }
 
 #nav
@@ -175,6 +175,9 @@ h3 {
 .bg-green h2,
 .bg-green h3,
 .bg-green p,
+.bg-red h2,
+.bg-red h3,
+.bg-red p,
 .bg-purple h2,
 .bg-purple h3,
 .bg-purple p {
@@ -183,11 +186,14 @@ h3 {
 
 .bg-blue {
   background-color: #008F99;
-  background-color: #87242B;
 }
 
 .bg-green {
   background-color: #106107;
+}
+
+.bg-red {
+  background-color: #87242B;
 }
 
 .bg-purple {
