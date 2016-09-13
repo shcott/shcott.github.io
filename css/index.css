@@ -202,6 +202,14 @@ h3 {
   box-shadow: 0 0 6px rgba(0,0,0,0.3);
 }
 
+.got-data {
+  background-image: url(../img/projects/gotdata.png);
+}
+
+.democratic-dj {
+  background-image: url(../img/projects/democraticdj.png);
+}
+
 .animated-player {
   background-image: url(../img/mc/animatedplayer.png);
 }
