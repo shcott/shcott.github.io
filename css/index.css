@@ -194,12 +194,21 @@ h3 {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 20vw;
-  width: 28vw;
   min-height: 320px;
   min-width: 450px;
+  transition: min-height .2s, min-width .2s, box-shadow .2s, ease-in-out;
+  -webkit-transition: min-height .2s, min-width .2s, box-shadow .2s, ease-in-out;
+  -moz-transition: min-height .2s, min-width .2s, box-shadow .2s, ease-in-out;
+  -o-transition: min-height .2s, min-width .2s, box-shadow .2s, ease-in-out;
+  -ms-transition: min-height .2s, min-width .2s, box-shadow .2s, ease-in-out;
   margin: 8px;
   box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+.img-project:hover {
+  min-height: 334px;
+  min-width: 460px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
 }
 
 .got-data {
@@ -266,6 +275,12 @@ h3 {
   }
 
   .img-project {
-    min-width: 80%;
+    min-width: 85%;
+    margin-bottom: 16px;
+  }
+
+  .img-project:hover {
+    min-height: 320px;
+    min-width: 85%;
   }
 }
