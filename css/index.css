@@ -196,19 +196,19 @@ h3 {
   background-size: cover;
   min-height: 320px;
   min-width: 450px;
-  transition: min-height .2s, min-width .2s, box-shadow .2s, ease-in-out;
-  -webkit-transition: min-height .2s, min-width .2s, box-shadow .2s, ease-in-out;
-  -moz-transition: min-height .2s, min-width .2s, box-shadow .2s, ease-in-out;
-  -o-transition: min-height .2s, min-width .2s, box-shadow .2s, ease-in-out;
-  -ms-transition: min-height .2s, min-width .2s, box-shadow .2s, ease-in-out;
   margin: 8px;
   box-shadow: 0 0 6px rgba(0,0,0,0.3);
+
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  -ms-transition: .2s ease-in-out;
 }
 
 .img-project:hover {
-  min-height: 334px;
   min-width: 460px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+  box-shadow: 0 0 16px rgba(0,0,0,0.35);
 }
 
 .got-data {
