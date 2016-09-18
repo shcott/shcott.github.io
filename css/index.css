@@ -175,8 +175,28 @@ h3 {
   width: 300px;
 }
 
-.hr-bg-color {
-  border-color: #EBDDD1;
+.hr-bg-white {
+  border-top: 1px solid #707070;
+  border-left: 1px solid #707070;
+
+  border-bottom: 1px solid #FAF9F6;
+  border-right: 1px solid #FAF9F6;
+}
+
+.hr-bg-tan {
+  border-top: 1px solid #707070;
+  border-left: 1px solid #707070;
+
+  border-bottom: 1px solid #EBDDD1;
+  border-right: 1px solid #EBDDD1;
+}
+
+.hr-bg-gray {
+  border-top: 1px solid #858585;
+  border-left: 1px solid #858585;
+
+  border-bottom: 1px solid #474747;
+  border-right: 1px solid #474747;
 }
 
 .section p {
@@ -202,11 +222,8 @@ h3 {
   background-color: #EBDDD1;
 }
 
-#section-projects {
-}
-
 .img-project {
-  position: relative;
+  /*position: relative;*/
   display: inline-block;
   background-position: center top;
   background-repeat: no-repeat;
@@ -228,9 +245,9 @@ h3 {
   box-shadow: 0 0 16px rgba(0,0,0,0.35);
 }
 
-.img-project:after {
+/*.img-project:after {
   position: absolute;
-  content: ''; /* Will get overridden */
+  content: '';
   top: 0;
   right: 0;
   width: 100%;
@@ -253,55 +270,55 @@ h3 {
 
 .img-project:hover:after {
   opacity: .9;
-}
+}*/
 
 .got-data {
   background-image: url(../img/projects/gotdata.png);
 }
 
-.got-data:after {
+/*.got-data:after {
   content: "GoT Data";
-}
+}*/
 
 .democratic-dj {
   background-image: url(../img/projects/democraticdj.png);
 }
 
-.democratic-dj:after {
+/*.democratic-dj:after {
   content: "Democratic DJ";
-}
+}*/
 
 .animated-player {
   background-image: url(../img/mc/animatedplayer.png);
 }
 
-.animated-player:after {
+/*.animated-player:after {
   content: "Animated Player";
-}
+}*/
 
 .animation-api {
   background-image: url(../img/mc/animationapi.png);
 }
 
-.animation-api:after {
+/*.animation-api:after {
   content: "Animation API";
-}
+}*/
 
 .aquatic-abyss {
   background-image: url(../img/mc/aquaticabyss.png);
 }
 
-.aquatic-abyss:after {
+/*.aquatic-abyss:after {
   content: "Aquatic Abyss";
-}
+}*/
 
 .mutant-creatures {
   background-image: url(../img/mc/mutantcreatures.png);
 }
 
-.mutant-creatures:after {
+/*.mutant-creatures:after {
   content: "Mutant Creatures";
-}
+}*/
 
 #section-contact {
   background-color: #474747;
@@ -311,6 +328,7 @@ h3 {
 
 #contact-ul {
   margin-right: 2em;
+  margin: 70px 2em 36px 0;
 }
 
 .contact-li {
@@ -330,7 +348,7 @@ h3 {
 
 #section-contact p {
   font-size: 16px;
-  margin-top: 32px;
+  /*margin-top: 32px;*/
 }
 
 @media only screen and (max-device-width: 480px) {
