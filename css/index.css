@@ -225,7 +225,7 @@ h3 {
 .img-project {
   /*position: relative;*/
   display: inline-block;
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 320px;
@@ -287,6 +287,10 @@ h3 {
 /*.democratic-dj:after {
   content: "Democratic DJ";
 }*/
+
+.not-bomberman {
+  background-image: url(../img/projects/notbomberman.png);
+}
 
 .animated-player {
   background-image: url(../img/mc/animatedplayer.png);
