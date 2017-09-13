@@ -33,6 +33,7 @@ h2 {
 }
 
 h3 {
+  margin-top: 50px;
   font-weight: 400;
 }
 
@@ -137,7 +138,7 @@ h3 {
   padding: 18px 30px;
   display: inline-block;
   text-decoration: none;
-  transition: background .2s, box-shadow .2s, ease-in-out;
+  transition: background .2s, box-shadow .2s;
 }
 
 #nav a:hover {
@@ -222,6 +223,13 @@ h3 {
   background-color: #EBDDD1;
 }
 
+.img-placeholder {
+  display: inline-block;
+  min-height: 320px;
+  min-width: 450px;
+  margin: 8px;
+}
+
 .img-project {
   /*position: relative;*/
   display: inline-block;
@@ -279,6 +287,10 @@ h3 {
 /*.got-data:after {
   content: "GoT Data";
 }*/
+
+.hippocraft {
+  background-image: url(../img/projects/hippocraft.png);
+}
 
 .democratic-dj {
   background-image: url(../img/projects/democraticdj.png);
@@ -380,6 +392,10 @@ h3 {
 
   .about-text-div {
     padding: 16px;
+  }
+
+  .img-placeholder {
+    display: none;
   }
 
   .img-project {
