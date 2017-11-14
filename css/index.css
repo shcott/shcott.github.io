@@ -28,10 +28,6 @@ div {
   text-align: center;
 }
 
-h2 {
-  font-size: 30px;
-}
-
 h3 {
   margin-top: 50px;
   font-weight: 400;
@@ -279,6 +275,10 @@ h3 {
 .img-project:hover:after {
   opacity: .9;
 }*/
+
+.tcca {
+  background-image: url(../img/projects/ttca.png);
+}
 
 .got-data {
   background-image: url(../img/projects/gotdata.png);
