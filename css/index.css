@@ -276,17 +276,17 @@ h3 {
   opacity: .9;
 }*/
 
-.tcca {
-  background-image: url(../img/projects/ttca.png);
-}
-
 .got-data {
   background-image: url(../img/projects/gotdata.png);
 }
 
-/*.got-data:after {
-  content: "GoT Data";
-}*/
+.tcca {
+  background-image: url(../img/projects/ttca.png);
+}
+
+.quote-bot {
+  background-image: url(../img/projects/quotebot.png);
+}
 
 .hippocraft {
   background-image: url(../img/projects/hippocraft.png);
@@ -296,10 +296,6 @@ h3 {
   background-image: url(../img/projects/democraticdj.png);
 }
 
-/*.democratic-dj:after {
-  content: "Democratic DJ";
-}*/
-
 .not-bomberman {
   background-image: url(../img/projects/notbomberman.png);
 }
@@ -308,33 +304,17 @@ h3 {
   background-image: url(../img/mc/animatedplayer.png);
 }
 
-/*.animated-player:after {
-  content: "Animated Player";
-}*/
-
 .animation-api {
   background-image: url(../img/mc/animationapi.png);
 }
-
-/*.animation-api:after {
-  content: "Animation API";
-}*/
 
 .aquatic-abyss {
   background-image: url(../img/mc/aquaticabyss.png);
 }
 
-/*.aquatic-abyss:after {
-  content: "Aquatic Abyss";
-}*/
-
 .mutant-creatures {
   background-image: url(../img/mc/mutantcreatures.png);
 }
-
-/*.mutant-creatures:after {
-  content: "Mutant Creatures";
-}*/
 
 #section-contact {
   background-color: #474747;
