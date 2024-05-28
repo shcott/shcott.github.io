@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/projects/">Projects</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+    <section>
+      {{ page.content }}
+    </section>
+    <footer>
+      &copy; Scott Huang
+    </footer>
+  </body>
+</html>

@@ -1,9 +1,9 @@
-# Mac
+## Mac ##
 .DS_Store
 
 
 
-# Ruby
+## Ruby ##
 *.gem
 *.rbc
 /.config
@@ -63,7 +63,7 @@ build-iPhoneSimulator/
 
 
 
-# Jekyll
+## Jekyll ##
 _site/
 .sass-cache/
 .jekyll-cache/
