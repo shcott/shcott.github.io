@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "bundle exec jekyll serve --livereload --config _config.yml,_config-dev.yml"
+    "dev": "bundle exec jekyll serve --livereload"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
